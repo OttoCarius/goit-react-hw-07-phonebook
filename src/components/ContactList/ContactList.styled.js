@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
 export const StyledList = styled.ul`
+  margin-top: 30px;
   padding: 20px;
+  max-height: 200px;
+  min-width: 100px;
+  overflow: auto;
 `;
 
 export const StyledItem = styled.li`

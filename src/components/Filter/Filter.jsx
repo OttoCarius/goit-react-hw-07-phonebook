@@ -1,12 +1,14 @@
 import { StyledInput } from './Filter.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { changeFilter } from '../../redux/contactsSlice';
+import { getFilter } from '../../redux/selectors';
 
 const Filter = () => {
   const dispatch = useDispatch();
-  const value = useSelector(state => state.contacts.filter);
+  const value = useSelector(getFilter);
 
   const onChange = e => {
+    e.preventDefault();
     dispatch(changeFilter(e.currentTarget.value.toLocaleLowerCase()));
   };
   return (

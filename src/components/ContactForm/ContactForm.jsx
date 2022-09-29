@@ -3,12 +3,14 @@ import { StyledInput } from './ContactForm.styled';
 import { StyledButton } from './ContactForm.styled';
 import { StyledCont } from './ContactForm.styled';
 import { StyledLabel } from './ContactForm.styled';
-
+import { addContact } from '../../redux/operations';
 import { useSelector, useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contactsSlice';
+
 import { getContacts } from '../../redux/selectors';
+
 import { nanoid } from 'nanoid';
 import { toast } from 'react-toastify';
+// import { fetchContacts } from '../../redux/operations';
 
 function ContactForm() {
   const [name, setName] = useState('');

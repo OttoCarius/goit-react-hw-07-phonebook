@@ -4,15 +4,16 @@ import { StyledItem } from './ContactList.styled';
 import { StyledButton } from './ContactList.styled';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { removeContact } from '../../redux/contactsSlice';
+// import { removeContact } from '../../redux/contactsSlice';
+import { deleteContact } from '../../redux/operations';
 
 const ContactList = () => {
   const items = useSelector(state => state.contacts.items);
   const nameFilter = useSelector(state => state.contacts.filter);
   const dispatch = useDispatch();
 
-  const deleteContact = contactId => {
-    dispatch(removeContact(contactId));
+  const deleteContacts = contactId => {
+    dispatch(deleteContact(contactId));
   };
 
   const FilterItems = () => {
@@ -34,7 +35,7 @@ const ContactList = () => {
                   </StyledText>
                   <StyledButton
                     onClick={() => {
-                      deleteContact(contact.id);
+                      deleteContacts(contact.id);
                     }}
                   >
                     Delete
