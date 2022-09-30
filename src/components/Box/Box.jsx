@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import bgImage from '../img/iphone2.png';
 
 const Box = styled.div`
-  width: 450px;
-  min-height: 850px;
+  width: 430px;
+  min-height: 870px;
   margin-top: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   display: flex;

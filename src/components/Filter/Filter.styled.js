@@ -10,7 +10,7 @@ export const StyledInput = styled.input`
   box-shadow: 1px 9px 15px rgba(0, 0, 0, 0.5);
   text-align: center;
   display: flex;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
 
   ::placeholder {
     text-align: center;
