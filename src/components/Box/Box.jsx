@@ -3,7 +3,7 @@ import bgImage from '../img/iphone2.png';
 
 const Box = styled.div`
   width: 430px;
-  min-height: 870px;
+  min-height: 860px;
   margin-top: 80px;
   margin-bottom: 30px;
   margin-left: auto;
