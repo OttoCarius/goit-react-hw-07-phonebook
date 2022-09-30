@@ -2,13 +2,17 @@ import styled from 'styled-components';
 
 export const StyledCont = styled.div`
   display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 export const StyledInput = styled.input`
+  margin: 10px;
   font-size: ${p => p.theme.fontSizes.m};
   font-weight: ${p => p.theme.fontWeights.medium};
   text-transform: ${p => p.theme.textTransform.cap};
-  width: 170px;
+  width: 200px;
   height: 30px;
   border-radius: 20px;
   box-shadow: 1px 9px 15px rgba(0, 0, 0, 0.5);
@@ -33,7 +37,9 @@ export const StyledButton = styled.button`
   font-weight: ${p => p.theme.fontWeights.medium};
   text-transform: ${p => p.theme.textTransform.cap};
   width: 120px;
-  height: 60px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
   letter-spacing: 2px;
   font-weight: 500;
   border-radius: 40px;

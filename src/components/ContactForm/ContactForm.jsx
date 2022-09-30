@@ -10,7 +10,6 @@ import { getContacts } from '../../redux/selectors';
 
 import { nanoid } from 'nanoid';
 import { toast } from 'react-toastify';
-// import { fetchContacts } from '../../redux/operations';
 
 function ContactForm() {
   const [name, setName] = useState('');

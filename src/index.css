@@ -1,8 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
-  background-image: url(./components/img/old-fashioned-phone-background_488220-17204.jpg);
-  background-position: 20% 40%;
+  background-image: url(./components/img/white.jpg);
+
+  /* background-position: 20% 40%; */
   background-repeat: no-repeat;
   background-size: cover;
 

@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const StyledSection = styled.section`
   padding-bottom: ${p => p.theme.space[4]}px;
+
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const StyledTitle = styled.h1`
