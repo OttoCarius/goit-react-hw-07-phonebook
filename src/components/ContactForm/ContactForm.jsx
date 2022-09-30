@@ -60,7 +60,6 @@ function ContactForm() {
     <form onSubmit={onHandleSubmit}>
       <StyledCont>
         <StyledLabel htmlFor="name">
-          Name
           <StyledInput
             type="text"
             name="name"
@@ -74,7 +73,6 @@ function ContactForm() {
           />
         </StyledLabel>
         <StyledLabel>
-          Number
           <StyledInput
             type="tel"
             name="number"

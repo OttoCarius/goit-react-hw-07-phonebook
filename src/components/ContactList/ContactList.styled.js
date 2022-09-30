@@ -23,8 +23,7 @@ export const StyledText = styled.p`
 `;
 
 export const StyledButton = styled.button`
-  margin-left: 30px;
-  color: ${p => p.theme.colors.primaryText};
+  color: black;
   background-color: ${p => p.theme.colors.white};
   font-size: ${p => p.theme.fontSizes.s};
   font-weight: ${p => p.theme.fontWeights.medium};
@@ -39,6 +38,6 @@ export const StyledButton = styled.button`
 
   :hover,
   :focus {
-    background-color: aliceblue;
+    background-color: #adadad;
   }
 `;
