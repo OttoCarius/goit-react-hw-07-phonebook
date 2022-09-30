@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-07-phonebook/static/css/main.08a5697e.css",
-    "main.js": "/goit-react-hw-07-phonebook/static/js/main.281c4ac8.js",
-    "static/media/old-fashioned-phone-background_488220-17204.jpg": "/goit-react-hw-07-phonebook/static/media/old-fashioned-phone-background_488220-17204.95745f3698096fbe6c31.jpg",
+    "main.css": "/goit-react-hw-07-phonebook/static/css/main.603d4501.css",
+    "main.js": "/goit-react-hw-07-phonebook/static/js/main.c0bb5c5f.js",
+    "static/media/white.jpg": "/goit-react-hw-07-phonebook/static/media/white.5932502efe8282ecdf90.jpg",
+    "static/media/iphone2.png": "/goit-react-hw-07-phonebook/static/media/iphone2.a08e1b77d7e9b516ebe5.png",
     "index.html": "/goit-react-hw-07-phonebook/index.html",
-    "main.08a5697e.css.map": "/goit-react-hw-07-phonebook/static/css/main.08a5697e.css.map",
-    "main.281c4ac8.js.map": "/goit-react-hw-07-phonebook/static/js/main.281c4ac8.js.map"
+    "main.603d4501.css.map": "/goit-react-hw-07-phonebook/static/css/main.603d4501.css.map",
+    "main.c0bb5c5f.js.map": "/goit-react-hw-07-phonebook/static/js/main.c0bb5c5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a5697e.css",
-    "static/js/main.281c4ac8.js"
+    "static/css/main.603d4501.css",
+    "static/js/main.c0bb5c5f.js"
   ]
 }
